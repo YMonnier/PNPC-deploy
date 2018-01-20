@@ -22,5 +22,3 @@ RUN wget https://jdbc.postgresql.org/download/postgresql-9.4.1212.jar \
                               --passwordfile=/opt/pwdfile \
 			       create-jdbc-resource --connectionpoolid postgres-pool jdbc/postgres-pool && \
     /opt/payara41/bin/asadmin stop-domain
-
-#COPY ./PNPC-Server.war /opt/payara41/deployments/

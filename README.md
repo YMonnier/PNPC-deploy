@@ -15,7 +15,7 @@ Most common default open ports that can be exposed outside of the container:
 
 1. `git clone git@github.com:YMonnier/PNPC-deploy.git`
 2. `cp your_file.war ./data/payara/deployments` OR `cp your_file.wat ./data/payara/autodeploy`
-3. `docker-compose down; and docker-compose up` 4.
+3. `docker-compose down; and docker-compose up`
 4. `http://localhost:8080/...`
 
 ### Automatic Way

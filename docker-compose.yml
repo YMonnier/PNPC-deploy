@@ -12,11 +12,6 @@ services:
             - start-domain
             - -v
         volumes:
-          # application to deploy at startup
-            - "./data/payara/deployments:/opt/payara41/deployments"
-          # autodeploy (discouraged : no parameters, needs write access)
-            - "./data/payara/autodeploy:/opt/payara41/glassfish/domains/domain1/autodeploy"
-
             - "./payara-init.sh:/usr/local/bin/payara-init.sh"
         depends_on:
             - db

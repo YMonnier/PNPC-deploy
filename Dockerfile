@@ -21,6 +21,5 @@ RUN wget https://jdbc.postgresql.org/download/postgresql-9.4.1212.jar \
     /opt/payara41/bin/asadmin --user admin \
                               --passwordfile=/opt/pwdfile \
 			       create-jdbc-resource --connectionpoolid postgres-pool jdbc/postgres-pool && \
-    /opt/payara41/bin/asadmin stop-domain
-
-#COPY ./PNPC-Server.war /opt/payara41/deployments/
+    /opt/payara41/bin/asadmin stop-domain && \
+    wget https://bintray.com/ymonnier/pnpc/download_file?file_path=fr%2Fpnpc%2Fproject%2Fserver%2FPNPC-Server%2F1.0.0-frozen-20%2FPNPC-Server-1.0.0-frozen-20.war -O /opt/payara41/glassfish/domains/domain1/autodeploy/PNPC.war

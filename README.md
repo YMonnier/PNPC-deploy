@@ -1,6 +1,13 @@
 # PNPC-deploy
 
-PNPC Hiking Project - Deploying
+PNPC is a student project to locate hikers in natural parks by using [Estimotes](https://estimote.com).
+
+See our project components:
+- [Models](https://github.com/YMonnier/PNPC-models)
+- [Server](https://github.com/YMonnier/PNPC-server)
+- [App iOS](https://github.com/YMonnier/PNPC-iOS)
+- [App Android](https://github.com/YMonnier/PNPC-android)
+
 
 ## Using Docker
 
